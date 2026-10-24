@@ -73,6 +73,20 @@ TBDTBD
 TBDTBDTBD
   </pre>
 
+  <h3 id="The Potential of AI-Driven Protection">The Potential of AI-Driven Protection</h3>
+  <pre id = "The Potential of AI-Driven Protection">
+TBDTBDTBD
+  </pre>
+
+  <h3 id="Limitations of AI in IoT Security">Limitations of AI in IoT Security</h3>
+  <pre id = "Limitations of AI in IoT Security">
+TBDTBDTBD
+  </pre>
+
+   <h3 id="Conclusion: The Future of IoT Security">Conclusion: The Future of IoT Security</h3>
+  <pre id = "Conclusion: The Future of IoT Security">
+TBDTBDTBD
+  </pre>
 
 <h3 id=”References”>References</h3>
   <pre id = "References">
@@ -98,6 +112,22 @@ TBDTBDTBD
 <tr>
   <td><a href="#How AI identifies Cyber Threats">How AI identifies Cyber Threats</td>
 </tr>
+
+<tr>
+  <td><a href="#The Potential of AI-Driven Protection">The Potential of AI-Driven Protection</td>
+</tr>
+
+<tr>
+  <td><a href="#Limitations of AI in IoT Security">Limitations of AI in IoT Security</td>
+</tr> 
+
+<tr>
+  <td><a href="#Conclusion: The Future of IoT Security">Conclusion: The Future of IoT Security</td>
+</tr>  
+
+<tr>
+  <td><a href="#References">References</td>
+</tr>    
 </table>
 </body>
 <!-- //////////////////////////////////////////////////////////////////////////////// -->
@@ -172,11 +202,15 @@ TBDTBDTBD
   function displayTotalWordCount() {
     // Calculate word count for each section and accumulate the total
     const AbstractCount = displayWordCount("AbstractCount");
-    const IntroductionCount = displayWordCount("Introduction");
-    const AnalysisCount = displayWordCount("Analysis and discussion");
+    const IntroductionCount = displayWordCount("Introduction: The Growing Need for IoT Security");
+    const Section2Count = displayWordCount("Common Vulnerabilities in IoT systems");
+    const Section3Count = displayWordCount("How AI identifies Cyber Threats");
+    const Section4Count = displayWordCount("The Potential of AI-Driven Protection");
+    const Section5Count = displayWordCount("Limitations of AI in IoT Security");
+    const ConclusionCount = displayWordCount("Conclusion: The Future of IoT Security");
     const ReferenceCount = displayWordCount("References");
     // Calculate the sum of all selected sections
-    const totalWordCount = AbstractCount + IntroductionCount + AnalysisCount + ReferenceCount;
+    const totalWordCount = AbstractCount + IntroductionCount + Section2Count + Section3Count + Section4Count + Section5Count + ConclusionCount + ReferenceCount;
     // Display the total word count
     document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
   }
