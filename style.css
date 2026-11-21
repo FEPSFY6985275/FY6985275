@@ -10,12 +10,18 @@ body {
 img {
     display: block;
     width: 100%;
-    max-width: 850px;
+    max-width: 480px;
     height: auto;
-    max-height: 115px;
+    max-height: 105px;
     object-fit: contain;
-    margin: 0 auto 30px;
+
+    margin: 0 0 30px 0;
+
+    background-color: #ffffff;
+    padding: 8px 14px;
     border-radius: 8px;
+
+    box-shadow: 0 0 18px #00d4ff18;
 }
 
 
