@@ -116,14 +116,11 @@ button:hover {
     box-shadow: 0 0 15px #00d4ff44;
 }
 
-#last-updated,
-#totalWordCount {
+#LastUpdated{
     color: #8299b8;
     font-size: 14px;
 }
 
-
-/* Table of Contents styling */
 table:first-of-type {
     max-width: 650px;
     margin: 20px auto 35px;
