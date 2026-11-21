@@ -3,19 +3,28 @@ body{
     color:#e2e8f0;
     font-family:Segoe UI,sans-serif;
 }
+
 table{
     width:100%;
-    background:#1e293b;
+    border-collapse:collapse;
+    background:#0f172a;
     color:white;
     border-radius:10px;
+    overflow:hidden;
 }
 
 th{
-    background:#0f172a;
+    background:#020617;
+    color:#38bdf8;
 }
 
 td,th{
     padding:12px;
+    text-align:left;
+}
+
+tr:nth-child(even){
+    background:#1e293b;
 }
 
 h1{
