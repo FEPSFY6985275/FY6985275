@@ -121,3 +121,46 @@ button:hover {
     color: #8299b8;
     font-size: 14px;
 }
+
+
+/* Table of Contents styling */
+table:first-of-type {
+    max-width: 650px;
+    margin: 20px auto 35px;
+    border: 1px solid #1e3a5f;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px #00d4ff12;
+}
+
+
+table:first-of-type th {
+    background: #111c32;
+    color: #00d4ff;
+    text-align: left;
+    padding: 14px;
+}
+
+
+table:first-of-type td {
+    padding: 11px 15px;
+    border-bottom: 1px solid #263449;
+    transition: background 0.2s ease;
+}
+
+
+table:first-of-type td a {
+    display: block;
+    color: #cbd5e1;
+    transition: color 0.2s ease;
+}
+
+
+table:first-of-type td:hover {
+    background: #24334d;
+}
+
+table:first-of-type td:hover a {
+    color: #00d4ff;
+}
+
