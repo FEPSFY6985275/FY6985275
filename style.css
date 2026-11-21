@@ -8,19 +8,21 @@ body {
 }
 
 img {
-    display: block;
-    width: 100%;
+    display: block !important;
+    width: auto !important;
     max-width: 480px;
-    height: auto;
+    height: auto !important;
     max-height: 105px;
     object-fit: contain;
 
-    margin: 0 0 30px 0;
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+    margin-right: auto !important;
+    margin-bottom: 30px;
 
     background-color: #ffffff;
     padding: 8px 14px;
     border-radius: 8px;
-
     box-shadow: 0 0 18px #00d4ff18;
 }
 
