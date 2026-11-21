@@ -161,3 +161,9 @@ table:first-of-type td:hover a {
     color: #00d4ff;
 }
 
+table:nth-of-type(2) tr:hover,
+table:nth-of-type(2) td:hover {
+    background: inherit;
+    color: inherit;
+}
+
