@@ -168,4 +168,4 @@ table:nth-of-type(2) tr:hover td {
 
 table:nth-of-type(2) tr:nth-child(even):hover td {
     background-color: #1e293b !important;
-} 
+}
