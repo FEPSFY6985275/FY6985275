@@ -15,18 +15,17 @@ img {
     max-height: 105px;
     object-fit: contain;
 
-
     margin-top: 0 !important;
     margin-left: 0 !important;
     margin-right: auto !important;
     margin-bottom: 30px;
-
 
     background-color: #ffffff;
     padding: 8px 14px;
     border-radius: 8px;
     box-shadow: 0 0 18px #00d4ff18;
 }
+
 
 table{
     width: 100%;
@@ -85,7 +84,6 @@ a {
     transition: 0.3s;
 }
 
-
 a:hover {
     color: white;
     text-shadow: 0 0 10px #00d4ff;
@@ -113,7 +111,6 @@ button {
     transition: 0.3s;
 }
 
-
 button:hover {
     background: #1b3b59;
     box-shadow: 0 0 15px #00d4ff44;
@@ -134,15 +131,12 @@ table:first-of-type {
 }
 
 
-
-
 table:first-of-type th {
     background: #111c32;
     color: #00d4ff;
     text-align: left;
     padding: 14px;
 }
-
 
 
 table:first-of-type td {
@@ -152,7 +146,6 @@ table:first-of-type td {
 }
 
 
-
 table:first-of-type td a {
     display: block;
     color: #cbd5e1;
@@ -160,11 +153,9 @@ table:first-of-type td a {
 }
 
 
-
 table:first-of-type td:hover {
     background: #24334d;
 }
-
 
 table:first-of-type td:hover a {
     color: #00d4ff;
@@ -174,7 +165,6 @@ table:nth-of-type(2) tr:hover td {
     background-color: #0f172a !important;
     color: #e2e8f0 !important;
 }
-
 
 table:nth-of-type(2) tr:nth-child(even):hover td {
     background-color: #1e293b !important;
